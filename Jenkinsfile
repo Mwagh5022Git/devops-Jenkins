@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        DOCKERHUB = credentials('dockerhub')
+        DOCKERHUB = credentials('mwagh5022')
         IMAGE = "mwagh5022/myapp:latest"
     }
 
