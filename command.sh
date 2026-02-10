@@ -3,6 +3,7 @@
 sudo apt update
 sudo apt install fontconfig openjdk-21-jre
 java -version
+apt install docker.io
 
 sudo wget -O /etc/apt/keyrings/jenkins-keyring.asc \
   https://pkg.jenkins.io/debian-stable/jenkins.io-2026.key
