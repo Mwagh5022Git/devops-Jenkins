@@ -15,3 +15,5 @@ sudo apt install jenkins
 
 sudo usermod -aG docker jenkins
 sudo systemctl restart jenkins
+
+cat /var/lib/jenkins/secrets/initialAdminPassword
