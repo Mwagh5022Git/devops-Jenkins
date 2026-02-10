@@ -12,3 +12,6 @@ echo "deb [signed-by=/etc/apt/keyrings/jenkins-keyring.asc]" \
   /etc/apt/sources.list.d/jenkins.list > /dev/null
 sudo apt update
 sudo apt install jenkins
+
+sudo usermod -aG docker jenkins
+sudo systemctl restart jenkins
