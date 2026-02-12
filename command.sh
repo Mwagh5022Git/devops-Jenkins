@@ -1,5 +1,6 @@
 #!/bin/bash
 
+# Install JAVA Docker and Jenkins
 sudo apt update
 sudo apt install fontconfig openjdk-21-jre
 java -version
@@ -17,5 +18,5 @@ sudo usermod -aG docker jenkins
 sudo systemctl restart jenkins
 
 docker version
-
+# password for login jenkins
 cat /var/lib/jenkins/secrets/initialAdminPassword
