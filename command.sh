@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Install JAVA Docker and Jenkins
-sudo apt update
+#sudo apt update
 sudo apt install fontconfig openjdk-21-jre
 java -version
 apt install docker.io
